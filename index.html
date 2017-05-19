@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="reset.css">
+<link rel="stylesheet" type="text/css" href="style.css">
+<title>Tunaiku</title>
+</head>
+
+<body>
+	<header>
+		<div class="wrapper clearfix">
+			<div class="logo">
+				<a href="#">
+					<h1>Front-end</h1>
+				</a>
+			</div>
+			<div class="btn-search">
+				<a href="#"><img src="img/icon-search.png"></a>
+			</div>
+			<ul class="header-menu">
+				<li><a href="#">Menu 1</a></li><li><a href="#">Menu 2</a></li><li class="has-sub">
+					<a href="#">Menu 3</a>
+					<ul class="sub-menu" style="display:none">
+						<li><a href="#">Sub-menu-3-number 1</a></li>
+						<li><a href="#">Sub-menu-3-2</a></li>
+					</ul>
+				</li><li><a href="#">Menu 4</a></li>
+			</ul>
+		</div>
+	</header>
+	<section id="content-top">
+		<div class="wrapper clearfix">
+			<div class="col-6 fLeft">
+				<h2>Lorem ipsum dolor sit
+amet, consectetur adipi
+scingelit, sed do</h2>
+				<p>eiusmod tempor incididunt ut labore et dolore magna
+aliqua. Ut enim ad minim veniam, quis nostrud</p>
+				<a href="#" class="btn-blue">For more information</a>
+			</div>
+			<div class="col-6 fLeft">
+				<img src="img/section-1-image01.png" width="380" class="main-img fRight mr10">
+			</div>
+		</div>
+	</section>
+	<section id="content-mid" class="tAlign-center clearfix">
+		<h2>Cupidatat Non Proident Sunt</h2>
+		<div class="col-4 fLeft">
+			<div class="container">
+				<figure>
+					<img src="img/section-2-image01.png" height="120">
+				</figure>
+				<h3>Excepteur sint occaecat</h3>
+				<p>laboris nisi ut aliquip ex ea commodo consequat. 
+	irure dolor in reprehenderit in voluptate 
+	dolore eu fugiat nulla pariatur.</p>
+			</div>
+		</div>
+		<div class="col-4 fLeft">
+			<div class="container">
+				<figure>
+					<img src="img/section-2-image02.png" height="120">
+				</figure>
+				<h3>Nemo enim ipsam</h3>
+				<p>qui ratione voluptatem sequi nesciunt.Neque porro
+	quisquam est, qui dolorem ipsum quia dolor
+	sit amet, consectetur, adipisci velit,</p>
+			</div>
+		</div>
+		<div class="col-4 fLeft">
+			<div class="container">
+				<figure>
+					<img src="img/section-2-image03.png" height="120">
+				</figure>
+				<h3>Quis autem vel eum</h3>
+				<p>magnam aliquam quaerat voluptatem. Ut enim
+	ad minima veniam, quis nostrum exercitationem
+	ullam corporis</p>
+			</div>
+		</div>
+	</section>
+	<section id="content-bot">
+		<p class="tAlign-center">Quis nostrum exercitationem ullam corporis
+suscipit laboriosasimu, nisi ut aliquid?</p>
+		<div class="container clearfix">
+			<input type="text" placeholder="front-end@tunaiku.com">
+			<a href="#" class="btn-blue">SEND</a>
+		</div>
+	</section>
+	<footer>
+		<div class="wrapper clearfix">
+			<div class="col-6 fLeft left">
+				<h3>Front-end</h3>
+				<p>magnam aliquam quaerat voluptatem. Ut enim
+ad minima veniam, quis nostrum exercitationem
+ullam corporis</p>
+			</div>
+			<div class="col-6 fLeft right">
+				<div class="clearfix">
+					<ul class="menu fRight">
+						<li><a href="#">Menu 1</a></li>
+						<li><a href="#">Menu 2</a></li>
+						<li><a href="#">Menu 3</a></li>
+						<li><a href="#">Menu 4</a></li>
+					</ul>
+				</div>
+				<div class="clearfix">
+					<ul class="social fRight">
+						<li><a href="#"><img src="img/icon-facebook.png"></a></li>
+						<li><a href="#"><img src="img/icon-twitter.png"></a></li>
+						<li><a href="#"><img src="img/icon-instagram.png"></a></li>
+						<li><a href="#"><img src="img/icon-youtube.png"></a></li>
+					</ul>
+				</div>
+				<p class="fRight">magnam aliquam quaerat voluptatem. Ut enim
+</p>
+			</div>
+		</div>
+	</footer>
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+	<script>
+		$('.has-sub').on('click', function(){
+			$(this).find('.sub-menu').toggle();
+		})
+	</script>
+</body>
+
+</html>

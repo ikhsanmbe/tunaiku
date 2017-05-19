@@ -1,0 +1,305 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+}
+a {
+	text-decoration: none;
+}
+
+.wrapper {
+	width: 90%;
+	margin: auto;
+}
+
+header {
+	height: 80px;
+	background-color: #2d4452;
+    -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.3);
+    -moz-box-shadow: 0 1px 1px rgba(0,0,0,.3);
+    box-shadow: 0 1px 1px rgba(0,0,0,.3);
+}
+header a {
+	color: #FFF;
+}
+.logo {
+	float: left;
+}
+.logo h1 {
+	font-size: 40px;
+	line-height: 80px;
+}
+.header-menu {
+	float: right;
+}
+.header-menu > li {
+	display: inline-block;
+}
+.header-menu > li:hover {
+	background-color: #2a3f4d;
+}
+.header-menu > li:hover > a {
+	color: #6fae08;
+}
+.header-menu > li:hover .sub-menu {
+	display: block;
+}
+.header-menu > li > a {
+	display: block;
+	width: 120px;
+	font-size: 18px;
+	line-height: 80px;
+	text-align: center;
+}
+.btn-search {
+	float: right;
+	height: 80px;
+	margin-left: 25px;
+}
+.btn-search {
+	position: relative;
+	top: 30px;
+}
+.header-menu .has-sub {
+	position: relative;
+}
+.sub-menu {
+	width: 240px;
+	background-color: rgba(140,150,156,.6);
+	position: absolute;
+    top: 80px;
+	left: 0;
+}
+.sub-menu li {
+	padding: 25px 30px;
+	border-bottom: 2px solid rgba(91,106,115,.6);
+}
+.sub-menu li:last-child {
+	border-bottom: 0;
+}
+
+#content-top,
+#content-mid,
+#content-bot {
+	padding-top: 75px;
+	padding-bottom: 95px;
+}
+#content-top,
+#content-bot {
+	background-color: #F2F2F2;
+}
+#content-top h2,
+#content-mid h2 {
+	font-size: 54px;
+	line-height: 70px;
+}
+#content-top p {
+	margin-top: 10px;
+	font-size: 22px;
+	line-height: 40px;
+}
+#content-top .btn-blue {
+	margin-top: 30px;
+	width: 274px;
+	line-height: 65px;
+	font-size: 20px;
+}
+#content-mid h2 {
+	width: 90%;
+	margin: 0 auto;
+	padding-bottom: 100px;
+}
+#content-mid .col-4 .container {
+	width: 90%;
+	max-width: 350px;
+	margin: auto;
+}
+#content-mid h3 {
+	padding-top: 20px;
+	font-size: 26px;
+	font-weight: bold;
+}
+#content-mid p {
+	padding-top: 10px;
+	font-size: 14px;
+	line-height: 24px;
+}
+#content-bot p {
+	width: 80%;
+	margin: 0 auto;
+	font-size: 46px;
+	line-height: 60px;
+}
+#content-bot .container {
+	width: 80%;
+	max-width: 680px;
+	margin: 30px auto 0;
+}
+#content-bot input {
+	float: left;
+	height: 80px;
+	width: 66%;
+	max-width: 510px;
+	border-radius: 14px;
+	border: 0;
+	font-size: 25px;
+	text-indent: 40px;
+}
+#content-bot .btn-blue {
+	float: left;
+	width: 20%;
+	min-width: 180px;
+	line-height: 80px;
+	margin-left: 4%;
+	font-size: 26px;
+}
+
+footer {
+	padding: 40px 0;
+	background-color: #2d4452;
+	color: #FFF;
+}
+footer h3 {
+	font-size: 40px;
+	padding-bottom: 30px;
+}
+footer .left p {
+	width: 60%;
+	line-height: 30px;
+}
+footer .social,
+footer .right p {
+	margin-top: 40px;
+}
+footer .menu li,
+footer .social li {
+	display: inline-block;
+	padding: 0 10px;
+}
+footer .menu li a {
+	color: #FFF;
+}
+footer .social {
+}
+
+
+.fLeft {
+	float: left;
+}
+.fRight {
+	float: right;
+}
+.mr10 {
+	margin-top: 10px;
+}
+.tAlign-center {
+	text-align: center;
+}
+.btn-blue {
+	display: block;
+	border-radius: 14px;
+	background-color: #2d4452;
+	font-weight: bold;
+	color: #FFF;
+	text-align: center;
+}
+.col-6 {
+	width: 50%;
+}
+.col-4 {
+	width: 33.33%;
+}
+
+@media only screen and (max-width: 960px) {
+	
+	header {
+		height: 120px;
+	}
+	.header-menu {
+		width: 100%;
+	}
+	.header-menu > li {
+		width: 25%;
+	}
+	.header-menu > li > a {
+		line-height: 40px;
+		width: 100%;
+		font-size: 14px;
+	}
+	.header-menu .has-sub {
+		position: initial;
+	}
+	.sub-menu {
+		top: 120px;
+		width: 100%;
+		background-color: rgba(140,150,156,.9);
+	}
+	.logo h1 {
+		font-size: 24px;
+	}
+	.btn-search {
+		height: auto;
+	}
+	.main-img {
+		margin: 30px auto 0;
+		width: 90%;
+		max-width: 300px;
+	}
+	#content-top,
+	#content-mid,
+	#content-bot {
+		padding: 30px 0;
+	}
+	#content-top h2,
+	#content-mid h2 {
+		font-size: 26px;
+		line-height: 30px;
+		font-weight: bold;
+	}
+	#content-top p {
+		font-size: 14px;
+		line-height: 16px;
+	}
+	#content-mid h2 {
+		padding-bottom: 40px;
+	}
+	#content-mid .col-4 .container {
+		margin-top: 30px;
+	}
+	#content-mid h3 {
+		font-size: 20px;
+	}
+	#content-bot p {
+		font-size: 26px;
+		line-height: 30px;
+		font-weight: bold;
+	}
+	#content-bot input {
+		width: 100%;
+		font-size: 16px;
+		height: 40px;
+	}
+	#content-bot .btn-blue {
+		margin: 20px 0;
+		float: right;
+		height: 40px;
+		line-height: 40px;
+		font-size: 14px;
+		min-width: 100px;
+	}
+	footer h3 {
+		font-size: 20px;
+		padding-bottom: 10px;
+	}
+	footer .left p {
+		font-size: 12px;
+		line-height: 18px;
+	}
+	footer .left {
+		margin-bottom: 20px;
+	}
+	.col-6,
+	.col-4  {
+		width: 100%;
+	}
+}
+@media only screen and (max-width: 640px) {
+}
